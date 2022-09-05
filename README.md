@@ -1,9 +1,7 @@
-# GPU_wavelet_a_trous
+# GPU_wavelet_a_trous (Wavelet_filter_func.m)
 Performs Wavelet "a trous" filtering on a tif (hyper)stack
 
-
-# Main file: Wavelet_filter_func.m
-
+# Main file
 inputfile    inputstack (can be >4GB)
 outputfile   ouputstack (bigtiff)
 wavelet_k1  first kernel kept
