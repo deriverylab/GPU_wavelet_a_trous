@@ -1,7 +1,9 @@
 # GPU_wavelet_a_trous
 Performs Wavelet "a trous" filtering on a tif (hyper)stack
 
-# Parameters
+
+# Main file: Wavelet_filter_func.m
+
 inputfile    inputstack (can be >4GB)
 outputfile   ouputstack (bigtiff)
 wavelet_k1  first kernel kept
@@ -13,6 +15,12 @@ nC,nZ, nT dimensions of hyperstack
 
 # Syntax 
 Wavelet_filter_func('input.tif','output.tif',1,8,1,0,2,1,1,1000);
+
+
+# Fiji Wrapper 
+Alternatively, the function can be compiled and used in Fiji with a simple wrapper (see Wavelet_filter.m and wavelet a trous.ijm)
+
+
 
 Copyright 2022 Derivery lab MRC Laboratory of Molecular Biology
 
